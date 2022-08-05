@@ -1,0 +1,32 @@
+.noContrado {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.noContrado a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 3rem;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    transition: background-color .3s;
+}
+
+.noContrado h1 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.noContrado a:hover {
+    background-color: var(--primary);
+    color: white;
+    
+}
+
